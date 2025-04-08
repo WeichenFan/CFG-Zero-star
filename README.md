@@ -215,6 +215,8 @@ All results shown below were generated using this script on an H100 80G GPU.
 #### b. Image-to-Video Generation
 Follow Wan2.1 to clone the repo and finish the installation, then copy 'models/wan/image2video_cfg_zero_star.py' in this repo to the Wan2.1 repo (Wan2.1/wan). Modify 'Wan2.1/wan/__init__.py': replace 'from .image2video import WanI2V' with 'from .image2video_cfg_zero_star import WanI2V'.
 
+**Note: zero_init_steps is set to 0 [2.5% zero out] by default to ensure stable generation. If you prefer more creative results, you can set it to 1 [5% zero out], though this may lead to instability in certain cases.**
+
 ~~~bash
 python generate.py --task i2v-14B --size 832*480 --ckpt_dir ./Wan2.1-I2V-14B-480P --image examples/i2v_input.JPG --prompt "Summer beach vacation style, a white cat wearing sunglasses sits on a surfboard. The fluffy-furred feline gazes directly at the camera with a relaxed expression. Blurred beach scenery forms the background featuring crystal-clear waters, distant green hills, and a blue sky dotted with white clouds. The cat assumes a naturally relaxed posture, as if savoring the sea breeze and warm sunlight. A close-up shot highlights the feline's intricate details and the refreshing atmosphere of the seaside." --base_seed 0
 ~~~
