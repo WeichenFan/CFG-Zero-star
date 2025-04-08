@@ -62,7 +62,6 @@
     - [x] Text-to-Video
 - SD3/SD3.5
     - [x] Text-to-Image
-    - [ ] Image-to-Image
 - Flux
     - [x] Text-to-Image (Guidance-distilled version)
     - [x] Lora
@@ -70,6 +69,7 @@
     - [x] Audio generation
 - EasyControl
     - [x] Ghibli-Style Portrait Generation
+    - [ ] Other styles
 
 ## :astonished: Gallery
 
