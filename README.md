@@ -22,7 +22,8 @@
 <div align="center">
                       <a href="https://arxiv.org/abs/2503.18886">Paper</a> | 
                       <a href="https://weichenfan.github.io/webpage-cfg-zero-star/">Project Page</a> |
-                      <a href="https://huggingface.co/spaces/weepiess2383/CFG-Zero-Star">Demo</a>
+                      <a href="https://huggingface.co/spaces/weepiess2383/CFG-Zero-Star">Demo</a> |
+                      <a href="https://huggingface.co/spaces/jamesliu1217/EasyControl_Ghibli">Demo for Ghibli style</a>
 </div>
 
 ---
@@ -33,7 +34,7 @@
 [![Generic badge](https://img.shields.io/badge/DEMO-Vchitect2.0_Demo-<COLOR>.svg)](https://huggingface.co/spaces/Vchitect/Vchitect-2.0)
 [![Generic badge](https://img.shields.io/badge/Checkpoint-red.svg)](https://huggingface.co/Vchitect/Vchitect-XL-2B) -->
 
-
+🔥 [Huggingface demo for Ghibli style generation](https://huggingface.co/spaces/jamesliu1217/EasyControl_Ghibli) supported by [EasyControl](https://github.com/Xiaojiu-z/EasyControl).
 
 ⚡️ [Huggingface demo](https://huggingface.co/spaces/weepiess2383/CFG-Zero-Star) now supports text-to-image generation with SD3 and SD3.5.
 
@@ -42,7 +43,7 @@
 **🧪 Usage Tip: Use both optimized-scale and zero-init together. Adjust the zero-init steps based on total inference steps — 4% is generally a good starting point.**
 
 ## 🔥 Update and News
-- [2025.4.6] 🔥 Supported [EasyControl](https://github.com/Xiaojiu-z/EasyControl) now!
+- [2025.4.6] 🔥 Supported by [EasyControl](https://github.com/Xiaojiu-z/EasyControl) now!
 - [2025.4.4] 🤗 Supported by [Diffusers](https://github.com/huggingface/diffusers) now!
 - [2025.4.2] 🙌 Mentioned by [Wan2.1](https://github.com/Wan-Video/Wan2.1)!
 - [2025.4.1] Qwen2.5-Omni is suppported now!
