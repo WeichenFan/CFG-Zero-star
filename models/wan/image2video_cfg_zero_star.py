@@ -150,7 +150,8 @@ class WanI2V:
                  guide_scale=5.0,
                  n_prompt="",
                  seed=-1,
-                 offload_model=True):
+                 offload_model=True,
+                 zero_init_steps=0):
         r"""
         Generates video frames from input image and text prompt using diffusion process.
 
@@ -334,7 +335,7 @@ class WanI2V:
                 alpha = alpha.view(batch_size, *([1] * (len(noise_pred_cond.shape) - 1)))
                 alpha = alpha.to(noise_pred_cond.dtype)
 
-                if i <= 1:
+                if i <= zero_init_steps:
                     noise_pred = noise_pred_cond*0.
                 else:
                     noise_pred = noise_pred_uncond * alpha + guide_scale * (noise_pred_cond - noise_pred_uncond * alpha)
