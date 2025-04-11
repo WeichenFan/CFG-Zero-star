@@ -412,10 +412,9 @@ python models/easycontrol/infer.py
 </table>
 
 ### 7. Cogview4
-Ghibli-Style Portrait Generation, the zero-init steps is set to 1 for default, feel free to try other values.
 
 ~~~bash
-python models/easycontrol/infer.py
+python models/Cogview4/infer.py
 ~~~
 
 <table class="center">
