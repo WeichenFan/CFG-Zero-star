@@ -66,6 +66,8 @@
 - Flux
     - [x] Text-to-Image (Guidance-distilled version)
     - [x] Lora
+- CogView4
+    - [x] Text-to-Image
 - Qwen2.5-Omni
     - [x] Audio generation
 - EasyControl
@@ -406,6 +408,30 @@ python models/easycontrol/infer.py
     <td align="center"><b>Source Image</b></td>
     <td align="center"><b>CFG</b></td>
     <td align="center"><b>CFG-Zero*</b></td>
+  </tr>
+</table>
+
+### 7. Cogview4
+Ghibli-Style Portrait Generation, the zero-init steps is set to 1 for default, feel free to try other values.
+
+~~~bash
+python models/easycontrol/infer.py
+~~~
+
+<table class="center">
+  <tr>
+    <td><img src="assets/Cogview4/cfg.png"></td>
+    <td><img src="assets/Cogview4/ours.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>CFG</b></td>
+    <td align="center"><b>CFG-Zero*</b></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Prompt:</b> "A vibrant cherry red sports car sits proudly under the gleaming sun, its polished exterior smooth and flawless, casting a mirror-like reflection. The car features a low, aerodynamic body, angular headlights that gaze forward like predatory eyes, and a set of black, high-gloss racing rims that contrast starkly with the red. A subtle hint of chrome embellishes the grille and exhaust, while the tinted windows suggest a luxurious and private interior. The scene conveys a sense of speed and elegance, the car appearing as if it's about to burst into a sprint along a coastal road, with the ocean's azure waves crashing in the background."<br>
+      <b>Seed:</b> 42
+    </td>
   </tr>
 </table>
 
