@@ -43,7 +43,8 @@
 **🧪 Usage Tip: Use both optimized-scale and zero-init together. Adjust the zero-init steps based on total inference steps — 4% is generally a good starting point.**
 
 ## 🔥 Update and News
-- [2025.4.6] 🔥 Supported by [EasyControl](https://github.com/Xiaojiu-z/EasyControl) now!
+- [2025.4.14] 🔥 Supported by [sdnext](https://github.com/vladmandic/sdnext/blob/dev/CHANGELOG.md#update-for-2025-04-13) now!
+- [2025.4.6] 📙 Supported by [EasyControl](https://github.com/Xiaojiu-z/EasyControl) now!
 - [2025.4.4] 🤗 Supported by [Diffusers](https://github.com/huggingface/diffusers) now!
 - [2025.4.2] 🙌 Mentioned by [Wan2.1](https://github.com/Wan-Video/Wan2.1)!
 - [2025.4.1] Qwen2.5-Omni is suppported now!
@@ -54,6 +55,16 @@
 - [2025.3.27] 📙 Supported by [ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes) now!
 - [2025.03.26] 📙 Supported by [Wan2.1GP](https://github.com/deepbeepmeep/Wan2GP) now! 
 - [2025.03.25] Paper|Demo|Code have been officially released.
+
+## Community Works
+If you find that CFG-Zero* helps improve your model, we'd love to hear about it!
+
+Thanks to the following models for supporting our method!
+- [SD.Next](https://github.com/vladmandic/sdnext)
+- [EasyControl](https://huggingface.co/spaces/jamesliu1217/EasyControl_Ghibli)
+- [ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes)
+- [Wan2.1GP](https://github.com/deepbeepmeep/Wan2GP)
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) **Noted that ComfyUI's implementation is different from ours.**
 
 ## 📑 Todo List
 - Wan2.1 
@@ -72,7 +83,8 @@
     - [x] Audio generation
 - EasyControl
     - [x] Ghibli-Style Portrait Generation
-    - [ ] Other styles
+- HiDream
+    - [ ] text2image pipeline
 
 ## :astonished: Gallery
 
