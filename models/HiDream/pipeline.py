@@ -720,6 +720,9 @@ class HiDreamImagePipeline(DiffusionPipeline, FromSingleFileMixin):
                             noise_pred = noise_pred_uncond * alpha + guidance_scale * (noise_pred_text - noise_pred_uncond * alpha)
                     else:
                         noise_pred = noise_pred_uncond + self.guidance_scale * (noise_pred_text - noise_pred_uncond)
+                else:
+                    if (i <= zero_steps) and use_zero_init:
+                        noise_pred = noise_pred*0.
 
                 # compute the previous noisy sample x_t -> x_t-1
                 latents_dtype = latents.dtype
