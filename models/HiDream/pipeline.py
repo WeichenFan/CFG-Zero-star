@@ -553,7 +553,7 @@ class HiDreamImagePipeline(DiffusionPipeline, FromSingleFileMixin):
         max_sequence_length: int = 128,
         use_cfg_zero_star: Optional[bool] = True,
         use_zero_init: Optional[bool] = True,
-        zero_steps: Optional[int] = 0,
+        zero_steps: Optional[int] = 1,
     ):
         height = height or self.default_sample_size * self.vae_scale_factor
         width = width or self.default_sample_size * self.vae_scale_factor

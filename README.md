@@ -450,6 +450,8 @@ python models/Cogview4/infer.py
 ### 8. HiDream
 Git clone [HiDream](https://github.com/HiDream-ai/HiDream-I1), and replace [hidream_pipeline](https://github.com/HiDream-ai/HiDream-I1/blob/main/hi_diffusers/pipelines/hidream_image/pipeline_hidream_image.py) with ours 'models/HiDream/pipeline.py'
 
+Then modify 'zero_steps' according the total inference steps.
+
 ~~~bash
 cd HiDream-I1
 python ./inference.py --model_type full
