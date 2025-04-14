@@ -84,7 +84,7 @@ Thanks to the following models for supporting our method!
 - EasyControl
     - [x] Ghibli-Style Portrait Generation
 - HiDream
-    - [ ] text2image pipeline
+    - [x] text2image pipeline
 
 ## :astonished: Gallery
 
@@ -442,6 +442,31 @@ python models/Cogview4/infer.py
     <td colspan="2">
       <b>Prompt:</b> "A vibrant cherry red sports car sits proudly under the gleaming sun, its polished exterior smooth and flawless, casting a mirror-like reflection. The car features a low, aerodynamic body, angular headlights that gaze forward like predatory eyes, and a set of black, high-gloss racing rims that contrast starkly with the red. A subtle hint of chrome embellishes the grille and exhaust, while the tinted windows suggest a luxurious and private interior. The scene conveys a sense of speed and elegance, the car appearing as if it's about to burst into a sprint along a coastal road, with the ocean's azure waves crashing in the background."<br>
       <b>Seed:</b> 42
+    </td>
+  </tr>
+</table>
+
+### 8. HiDream
+Git clone [HiDream](https://github.com/HiDream-ai/HiDream-I1), and replace [hidream_pipeline](https://github.com/HiDream-ai/HiDream-I1/blob/main/hi_diffusers/pipelines/hidream_image/pipeline_hidream_image.py) with ours 'models/HiDream/pipeline.py'
+
+~~~bash
+cd HiDream-I1
+python ./inference.py --model_type full
+~~~
+
+<table class="center">
+  <tr>
+    <td><img src="assets/HiDream/cat_cfg.png"></td>
+    <td><img src="assets/HiDream/cat_ours.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>CFG</b></td>
+    <td align="center"><b>CFG-Zero*</b></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Prompt:</b> "A cat holding a sign that says \"Hi-Dreams.ai\"."<br>
+      <b>Seed:</b> 0
     </td>
   </tr>
 </table>
