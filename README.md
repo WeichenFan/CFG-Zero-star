@@ -43,6 +43,7 @@
 **🧪 Usage Tip: Use both optimized-scale and zero-init together. Adjust the zero-init steps based on total inference steps — 4% is generally a good starting point.**
 
 ## 🔥 Update and News
+- [2025.4.14] [HiDream](https://github.com/HiDream-ai/HiDream-I1) is suppported now!
 - [2025.4.14] 🔥 Supported by [sdnext](https://github.com/vladmandic/sdnext/blob/dev/CHANGELOG.md#update-for-2025-04-13) now!
 - [2025.4.6] 📙 Supported by [EasyControl](https://github.com/Xiaojiu-z/EasyControl) now!
 - [2025.4.4] 🤗 Supported by [Diffusers](https://github.com/huggingface/diffusers) now!
