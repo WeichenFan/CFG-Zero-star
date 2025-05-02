@@ -61,6 +61,7 @@
 If you find that CFG-Zero* helps improve your model, we'd love to hear about it!
 
 Thanks to the following models for supporting our method!
+- [blissful-tuner](https://github.com/Sarania/blissful-tuner/tree/main)
 - [SD.Next](https://github.com/vladmandic/sdnext)
 - [EasyControl](https://huggingface.co/spaces/jamesliu1217/EasyControl_Ghibli)
 - [ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes)
